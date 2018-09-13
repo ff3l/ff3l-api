@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^getdombycoord\/geo\:(.*)\,(.*)$ /getdombycoord.php?lat=$1&lon=$2 [L]
+RewriteRule ^getdombycoord\/(.*)\,(.*)$ /getdombycoord.php?lat=$1&lon=$2 [L]
+RewriteRule ^getdombycoord\/(.*)\/(.*)$ /getdombycoord.php?lat=$1&lon=$2 [L]
+RewriteRule ^getdombycoord\/(.*)\-(.*)$ /getdombycoord.php?lat=$1&lon=$2 [L]
